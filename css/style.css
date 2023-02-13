@@ -23,7 +23,7 @@ header>img{
     padding: 10px;
 }
 
-main{
+main, footer{
     padding: 10px;
 }
 
@@ -77,4 +77,26 @@ thead{
 
 .tr-color1{
     background-color:hsl(192deg 71% 82%) ;
+}
+
+footer>h3{
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.conteiner-article{
+    width: 300px;
+    height: 200px;
+    background-size: auto;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.art1{
+    background-image: url(../img/monitor.jpg);
+}
+
+.art2{
+    background-image: url(../img/graph.jpg);
 }
