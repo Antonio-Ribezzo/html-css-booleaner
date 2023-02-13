@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Questrial', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+header{
+    background-image: url(../img/pattern.png);
+    background-size:auto;
+    background-repeat: repeat;
+    background-color: hsl(212deg 100% 65%);
+    height: 180px;
+    position: relative;
+}
+
+
+header>img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+}
+
+main, footer{
+    width: 80%;
+    margin: auto;
+    /* padding: 10px; */
+}
+
+.margin-bottom{
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+#author{
+    font-size: 30px;
+    font-weight:300;
+    color: grey;
+}
+
+#author>span{
+    color: hsl(198deg 89% 47%);
+}
+
+#date{
+     font-size: 20px;
+    font-weight:300;
+    color: grey;
+}
+
+#caption{
+    font-size: 13px;
+}
+
+ul{
+    list-style: inside;
+    margin-top: 30px;
+}
+
+table{
+    border-spacing: 0;
+}
+
+thead{
+    background-color:hsl(198deg 79% 51%);
+    color: white;
+}
+
+.width-table{
+    width: 25%;
+    text-align:justify;
+}
+
+.tr-color1{
+    background-color:hsl(192deg 71% 82%) ;
+}
+
+footer>h3{
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.conteiner-article{
+    width: 300px;
+    height: 200px;
+    background-size: auto;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.art1{
+    background-image: url(../img/monitor.jpg);
+}
+
+.art2{
+    background-image: url(../img/graph.jpg);
+}
