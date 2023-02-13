@@ -2,8 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Questrial', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Questrial', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 header{
@@ -27,12 +28,12 @@ main{
 }
 
 .margin-bottom{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 h1{
     font-size: 60px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #author{
@@ -58,4 +59,22 @@ h1{
 ul{
     list-style: inside;
     margin-top: 30px;
+}
+
+table{
+    border-spacing: 0;
+}
+
+thead{
+    background-color:hsl(198deg 79% 51%);
+    color: white;
+}
+
+.width-table{
+    width: 25%;
+    text-align:justify;
+}
+
+.tr-color1{
+    background-color:hsl(192deg 71% 82%) ;
 }
