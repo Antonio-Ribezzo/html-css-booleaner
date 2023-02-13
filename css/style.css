@@ -17,5 +17,30 @@ header>img{
     position: absolute;
     left: 0;
     bottom: 0;
-    padding: 20px;
+    padding: 10px;
+}
+
+main{
+    padding: 10px;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+#author{
+    font-size: 30px;
+    font-weight:300;
+    color: grey;
+}
+
+#author>span{
+    color: hsl(198deg 89% 47%);
+}
+
+#date{
+     font-size: 20px;
+    font-weight:300;
+    color: grey;
 }
